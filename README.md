@@ -1,4 +1,4 @@
-# ⚡ Electric Vehicle Data Pipeline
+# Electric Vehicle Data Pipeline
 
 A complete **end-to-end Data Engineering pipeline** built to ingest, transform, and visualize Electric Vehicle population data using Python, PostgreSQL, and Power BI.
 
@@ -161,6 +161,19 @@ The Power BI dashboard includes:
 - **EV Registrations Trend** — Line chart showing yearly growth
 - **Top 10 Electric Vehicle Models** — Bar chart with manufacturer comparison
 - **CAFV Geographic Distribution** — Interactive map by county/state
+
+### Cover
+
+![Portada 1](doc/screenshots/portada_1.JPG)
+![Portada 2](doc/screenshots/portada_2.JPG)
+![Portada 3](doc/screenshots/portada_3.JPG)
+
+### Dashboard
+
+![Dashboard 1](doc/screenshots/dah_1.JPG)
+![Dashboard 2](doc/screenshots/dah_2.JPG)
+![Dashboard 3](doc/screenshots/dah_3.JPG)
+![Dashboard 4](doc/screenshots/dah_4.JPG)
 
 ---
 
