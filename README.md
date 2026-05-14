@@ -1,4 +1,4 @@
-# Electric Vehicle Data Pipeline
+# ⚡ Electric Vehicle Data Pipeline
 
 A complete **end-to-end Data Engineering pipeline** built to ingest, transform, and visualize Electric Vehicle population data using Python, PostgreSQL, and Power BI.
 
@@ -88,7 +88,7 @@ ev-data-pipeline/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ev-data-pipeline.git
+git clone https://github.com/matiasbaigorriaceleri/ev-data-pipeline.git
 cd ev-data-pipeline
 ```
 
@@ -108,7 +108,7 @@ Create the database and user:
 
 ```sql
 CREATE DATABASE ev_db;
-CREATE USER ev_user WITH PASSWORD 'admin123';
+CREATE USER ev_user WITH PASSWORD 'your_password';
 GRANT ALL PRIVILEGES ON DATABASE ev_db TO ev_user;
 ```
 
@@ -117,7 +117,7 @@ GRANT ALL PRIVILEGES ON DATABASE ev_db TO ev_user;
 Edit the connection string inside `ingestion/load.py`:
 
 ```python
-DATABASE_URL = "postgresql://ev_user:admin123@localhost:5432/ev_db"
+DATABASE_URL = "postgresql://ev_user:your_password@localhost:5432/ev_db"
 ```
 
 ### 5. Run the ingestion pipeline
@@ -147,10 +147,10 @@ Open `dashboard/ev_dashboard.pbix` in Power BI Desktop and update the PostgreSQL
 
 | View | Description |
 |------|-------------|
-| `vw_ev_registrations_by_year`    | EV registrations count grouped by model year |
-| `vw_top_ev_models`               | Top 10 EV models by registration volume |
-| `vw_cafv_geographic_distribution`| CAFV-eligible vehicles by county and state |
-| `vw_ev_yoy_by_county`            | Year-over-year registration change per county using `LAG()` |
+| `vw_ev_registrations_by_year` | EV registrations count grouped by model year |
+| `vw_top_ev_models` | Top 10 EV models by registration volume |
+| `vw_cafv_geographic_distribution` | CAFV-eligible vehicles by county and state |
+| `vw_ev_yoy_by_county` | Year-over-year registration change per county using `LAG()` |
 
 ---
 
@@ -204,8 +204,8 @@ pip install -r requirements.txt
 **Ing. Matias Baigorria**
 Data Engineer — passionate about building scalable, clean, and production-ready data solutions.
 
-[![LinkedIn](https://www.linkedin.com/in/matiasbaigorriaceleri/)]
-[![GitHub](https://github.com/matiasbaigorriaceleri)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/matiasbaigorriaceleri/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/matiasbaigorriaceleri)
 
 ---
 
